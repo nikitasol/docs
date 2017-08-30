@@ -31,7 +31,7 @@ Run these script commands within your theme directory:
 
 The `config.json` file in the `assets` directory controls the different theme assets that get built. By default, Sage builds two JS files and one CSS file:
 
-* `assets/stylesheets/main.scss` — primary theme CSS, barebones partials are imported to help get your styling started
+* `assets/styles/main.scss` — primary theme CSS, barebones partials are imported to help get your styling started
 * `assets/scripts/main.js` — primary theme JS
 * `assets/scripts/customizer.js` — theme customizer JS, used only in the customizer
 
