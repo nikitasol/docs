@@ -42,7 +42,7 @@ The `templates/` directory contains files that you can further extend with the n
 
 <dl class="dl-horizontal">
   <dt><code>base.php</code></dt>
-  <dd>The <a href="/sage/docs/theme-wrapper/">theme wrapper</a> which wraps the base markup around all template files</dd>
+  <dd>The <a href="/sage/theme-wrapper.md">theme wrapper</a> which wraps the base markup around all template files</dd>
 </dl>
 
 <p>These files include templates from the <code>templates/partials/</code> directory which is where you&rsquo;ll be making most of your customizations:</p>
@@ -94,7 +94,7 @@ The `templates/` directory contains files that you can further extend with the n
 
 ## Extending templates
 
-Even with the [theme wrapper](/sage/docs/theme-wrapper/), the normal [WordPress Template Hierarchy](http://codex.wordpress.org/Template_Hierarchy) is still intact. Here’s some examples:
+Even with the [theme wrapper](/sage/theme-wrapper.md), the normal [WordPress Template Hierarchy](http://codex.wordpress.org/Template_Hierarchy) is still intact. Here’s some examples:
 
 * Copy `index.php` to `author.php` for customizing author archives
 * Copy `index.php` to `home.php` for customizing the Home page if you’re showing the latest posts (under Reading Settings) instead of a static front page
@@ -102,4 +102,4 @@ Even with the [theme wrapper](/sage/docs/theme-wrapper/), the normal [WordPress 
 * Copy `page.php` to `front-page.php` for customizing the static front page
 * Copy `page.php` to `page-about.php` for customizing a page called About
 
-The [theme wrapper documentation](/sage/docs/theme-wrapper/) goes into depth about creating new `base.php` files, but if you’d like to have a customized `base.php` based on a certain template, just copy it to `templates/layouts/base-<template name>.php`. You can add conditional statements to `base.php` whenever possible and should generally aim to not have multiple theme wrappers in your theme.
+The [theme wrapper documentation](/sage/theme-wrapper.md) goes into depth about creating new `base.php` files, but if you’d like to have a customized `base.php` based on a certain template, just copy it to `templates/layouts/base-<template name>.php`. You can add conditional statements to `base.php` whenever possible and should generally aim to not have multiple theme wrappers in your theme.
